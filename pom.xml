@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.jack90john</groupId>
     <artifactId>spring-boot-with-utils-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0.RELEASE</version>
     <name>spring-boot-parent</name>
     <description>integrate spring-boot-starter-parent and some useful utils like
         lombok, commons-lang3, commons-collections4 etc. into one</description>
@@ -22,24 +22,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-collections4</artifactId>
-            <version>RELEASE</version>
-
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>RELEASE</version>
+            <groupId>com.jack90john</groupId>
+            <artifactId>common-utils</artifactId>
+            <version>1.0.0.RELEASE</version>
         </dependency>
     </dependencies>
 </project>
